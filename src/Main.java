@@ -30,6 +30,7 @@ public class Main {
 				break;
 			case "hotelzinho":
 				Hotelzinho h = new Hotelzinho(tamanho, qtdHoras);
+				i.adicionaItem(h);
 				break;
 			default:
 				System.out.println("Erro");
